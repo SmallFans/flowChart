@@ -1,0 +1,108 @@
+{
+  "status": 1,
+  "data": {
+    "name": "未命名工作流",
+    "owner": "5b411503-a9d4-46eb-8b48-c63197e077e8",
+    "startEventId": "5f03c40c8d5e120001b8c24c",
+    "flowNodeMap": {
+      "5f03c44f8d5e120001b8c61f": {
+        "id": "5f03c44f8d5e120001b8c61f",
+        "typeId": 4,
+        "name": "审批",
+        "prveId": "5f03c40c8d5e120001b8c24c",
+        "nextId": "5f03c46f4ea1950001cb7d61",
+        "flowIds": [],
+        "fields": []
+      },
+      "5f03d09aaed49b000128c8b6": {
+        "id": "5f03d09aaed49b000128c8b6",
+        "typeId": 1,
+        "name": "分支",
+        "prveId": "5f03c4784ea1950001cb7dbd",
+        "nextId": "",
+        "flowIds": [
+          "5f03d09aaed49b000128c8b7",
+          "5f03d09aaed49b000128c8b8"
+        ],
+        "fields": []
+      },
+      "5f03c46f4ea1950001cb7d61": {
+        "id": "5f03c46f4ea1950001cb7d61",
+        "typeId": 1,
+        "name": "",
+        "prveId": "5f03c44f8d5e120001b8c61f",
+        "nextId": "5f03c68ec00a18000100ad79",
+        "flowIds": [
+          "5f03c46f4ea1950001cb7d62",
+          "5f03c46f4ea1950001cb7d63",
+          "5f03f5919e88120001a8cc09"
+        ],
+        "fields": []
+      },
+      "5f03d09aaed49b000128c8b8": {
+        "id": "5f03d09aaed49b000128c8b8",
+        "typeId": 2,
+        "name": "",
+        "prveId": "5f03d09aaed49b000128c8b6",
+        "nextId": "",
+        "flowIds": []
+      },
+      "5f03f5919e88120001a8cc09": {
+        "id": "5f03f5919e88120001a8cc09",
+        "typeId": 2,
+        "name": "",
+        "prveId": "5f03c46f4ea1950001cb7d61",
+        "nextId": "",
+        "flowIds": []
+      },
+      "5f03c46f4ea1950001cb7d62": {
+        "id": "5f03c46f4ea1950001cb7d62",
+        "typeId": 2,
+        "name": "",
+        "prveId": "5f03c46f4ea1950001cb7d61",
+        "nextId": "",
+        "flowIds": []
+      },
+      "5f03c68ec00a18000100ad79": {
+        "id": "5f03c68ec00a18000100ad79",
+        "typeId": 6,
+        "name": "新增记录",
+        "prveId": "5f03c46f4ea1950001cb7d61",
+        "nextId": "99",
+        "flowIds": []
+      },
+      "5f03d09aaed49b000128c8b7": {
+        "id": "5f03d09aaed49b000128c8b7",
+        "typeId": 2,
+        "name": "",
+        "prveId": "5f03d09aaed49b000128c8b6",
+        "nextId": "",
+        "flowIds": []
+      },
+      "5f03c40c8d5e120001b8c24c": {
+        "id": "5f03c40c8d5e120001b8c24c",
+        "typeId": 0,
+        "name": "工作表事件触发",
+        "nextId": "5f03c44f8d5e120001b8c61f",
+        "flowIds": []
+      },
+      "5f03c46f4ea1950001cb7d63": {
+        "id": "5f03c46f4ea1950001cb7d63",
+        "typeId": 2,
+        "name": "",
+        "prveId": "5f03c46f4ea1950001cb7d61",
+        "nextId": "5f03c4784ea1950001cb7dbd",
+        "flowIds": []
+      },
+      "5f03c4784ea1950001cb7dbd": {
+        "id": "5f03c4784ea1950001cb7dbd",
+        "typeId": 6,
+        "name": "新增记录",
+        "prveId": "5f03c46f4ea1950001cb7d63",
+        "nextId": "5f03d09aaed49b000128c8b6",
+        "flowIds": []
+      }
+    }
+  },
+  "msg": "成功"
+}
